@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".AddTutorBottomSheet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ADD TUTOR INFORMATION"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:text="Tutor Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:hint="Name"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Tutor Institution"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/instituteET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:hint="Institute"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Tutor Department"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/deptET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:hint="Department"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Prefferd Subjects"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/subjectsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:hint="Subjects"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Tutor Phone No."
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/phoneNoET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:hint="Phone No"
+        android:imeOptions="actionDone"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/addBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

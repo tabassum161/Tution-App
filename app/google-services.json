@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "639256324156",
+    "firebase_url": "https://tutionju.firebaseio.com",
+    "project_id": "tutionju",
+    "storage_bucket": "tutionju.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639256324156:android:863253f8f212b782",
+        "android_client_info": {
+          "package_name": "com.example.user.tution_ju"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639256324156-eiecpjdu7au8u3eng55jonh070hmas75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.tution_ju",
+            "certificate_hash": "530584209883836cb9c47b8318578bcecd44ed4a"
+          }
+        },
+        {
+          "client_id": "639256324156-iobdnuo42iakhn99ft0859stn3ejjkmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.tution_ju",
+            "certificate_hash": "229541d7bf9214f4186cff5351cc1e5ab38c0406"
+          }
+        },
+        {
+          "client_id": "639256324156-op8fm795k4hnl9cig55as5jd5t4dmj2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtjIE2HB7kMeUDRLNvIDZQESTUom0O6e4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639256324156-op8fm795k4hnl9cig55as5jd5t4dmj2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

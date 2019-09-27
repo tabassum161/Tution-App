@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tution JU</string>
+    <string-array name="subjects">
+        <item>ENGLISH</item>
+        <item>MATH</item>
+        <item>SCIENCE</item>
+        <item>PHYSICS</item>
+        <item>CHEMISTRY</item>
+    </string-array>
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="check">Check Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

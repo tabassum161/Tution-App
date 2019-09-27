@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD TUTION INFORMATION"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:text="Student's Class"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/classET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Class"
+        android:textSize="14sp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Subjects"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/subjectsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subjects"
+        android:textSize="14sp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Student"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/genderET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:textSize="14sp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Location"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/locationET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:textSize="14sp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Salary"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/salaryET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salary"
+        android:textSize="14sp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="number"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Phone No."
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/phoneNoET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone No"
+        android:textSize="14sp"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:inputType="phone"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:id="@+id/addBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Add"/>
+
+
+</LinearLayout>
